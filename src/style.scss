@@ -1,5 +1,15 @@
-$clr-primary: hsl(80, 50%, 50%);
+// $clr-primary: hsl(80, 50%, 50%);
 
-p {
-  color: $clr-primary;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: $clr-bg;
+}
+
+h1 {
+  color: $clr-bg-text;
 }
